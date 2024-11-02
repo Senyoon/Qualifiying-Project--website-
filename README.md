@@ -3,5 +3,5 @@
 
 ### Add din kayo ng images doon sa folder, yung mga gagamitin !
 
-### Grrrr ka-inis gamitin github, send nyo rin pala ung email nyo sa GC, para add ko kayo as collaborators dito
+### Grrrr ka-inis gamitin github, send nyo rin pala ung account sa github nyo sa GC, para add ko kayo as collaborators dito
 
