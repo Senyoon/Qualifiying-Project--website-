@@ -1,3 +1,82 @@
-:root{
+:root {
     background-color: #610808;
+    color: white;
+    margin: 0px;
+    padding: 0;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+section, main{
+    scroll-snap-align: start;
+}
+
+body {
+    margin: 0%;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-size-20 {
+    font-size: 20.5px;
+}
+
+.roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-main {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.nav-tsu-container {
+    height: 150px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-campus-container {
+    height: 150px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-tsu-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.text-border {
+    border: 3px solid white;
+    width: 500px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

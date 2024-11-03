@@ -1,0 +1,26 @@
+main{
+    width: 100%;
+    height: calc(100vh - 150px);
+    background-color: #610808;
+}
+
+.mainImage{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(Images/tsu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sanisidroImage{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(Images/ccs1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lucindaImage{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(Images/lucindaentrance.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

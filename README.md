@@ -1,3 +1,2 @@
-Hi! Ito na ung repository for our projects
-Dito na rin tayo mag u-upload ng mga codes
-Thanks
+#simula palang, sorry sa class names
+## need ring gawing reponsive sa size change, paki-add if possible
