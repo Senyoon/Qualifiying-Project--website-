@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    margin: 0;
+}
+
 section {
     height: 100vh;
     width: 100%;
@@ -16,55 +20,15 @@ section {
     font-style: normal;
 }
 
-.font-size-20 {
-    font-size: 20.5px;
-}
-
 .roboto-bold {
     font-family: "Roboto", serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.nav-main {
-    display: flex;
+nav {
     height: 150px;
-    width: 100%;
-    margin-top: 0;
+    width: auto;
+    border: 1px solid white;
 }
 
-.nav-tsu-container {
-    height: 150px;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.nav-campus-container {
-    height: 150px;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.nav-tsu-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-logo {
-    height: 100px;
-    width: 100px;
-}
-
-.text-border {
-    border: 3px solid white;
-    width: 500px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
