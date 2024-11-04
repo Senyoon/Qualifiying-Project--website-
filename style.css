@@ -26,9 +26,68 @@ section {
     font-style: normal;
 }
 
-nav {
+.nav-main {
     height: 150px;
-    width: auto;
-    border: 1px solid white;
+    width: 100%;
+    background-color: #8B0000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: url('Images/tsu-gymnasium.jpg') no-repeat center center/cover; 
+    background-size: 100vw;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    min-width: 800px;
+    background-color: #8B0000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom-bar div {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.circle-logo {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.circle-logo img {
+    width: 80%;
+    height: auto;
+}
