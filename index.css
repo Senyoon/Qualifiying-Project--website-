@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 
-:root{
-    font-family: 'Roboto Mono';
+main {
+    font-family: "Roboto Mono";
     font-size: 18px;
 }
 
