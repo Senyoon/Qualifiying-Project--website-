@@ -85,7 +85,7 @@ section {
     width: 100%;
     margin: 0 auto;
     height: 100vh;
-    background: url('Images/Image.010.jpg') no-repeat center / cover;
+    background: url('Images/ccs-rview.jpg') no-repeat center / cover;
     color:white;
-    front-family: "Roboto Mono";
+    font-family: "Roboto Mono";
 }
