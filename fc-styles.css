@@ -22,7 +22,6 @@ body {
     font-family: "Roboto Mono";
 }
 
-/* Container for all facilities */
 .facilities-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -32,7 +31,6 @@ body {
     margin: 0 auto;
 }
 
-/* Individual facility card */
 .facility-card {
     position: relative;
     background-size: cover;
@@ -56,7 +54,6 @@ body {
     
 }
 
-/* Overlay for text */
 .facility-info {
     background: rgba(0, 0, 0, 0.6);
     padding: 15px 20px;
@@ -77,7 +74,6 @@ body {
     font-size: 16px;
 }
 
-/* Bottom bar with logo and text */
 .bottom-bar {
     display: flex;
     align-items: center;
