@@ -41,6 +41,56 @@ section {
     font-family: "Roboto Mono";
 }
 
+.cafeteria-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/main-cafeteria.png') no-repeat center / cover; 
+    color: white;
+    font-family: "Roboto Mono";
+}
+
+.dentalclinic-main-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/Dental\ Clinic\ Indoor.png') no-repeat center / cover; 
+    color: white;
+    font-family: "Roboto Mono";
+}
+
+.library-main-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/Library\ bookshelves\ .png') no-repeat center / cover; 
+    color: white;
+    font-family: "Roboto Mono";
+}
+
+.museo-main-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/Museo\ 2.webp') no-repeat center / cover; 
+    color: white;
+    font-family: "Roboto Mono";
+}
+
+.businesscenter-main-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/business\ center.png') no-repeat center / cover; 
+    color: white;
+    font-family: "Roboto Mono";
+}
+
 .text-overlay {
     position: absolute;
     top: 20%;
