@@ -8,7 +8,9 @@
     <title>TSU - Campush Showcase</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fc-styles.css">
     <link rel="stylesheet" href="index.css">
+
 </head>
 
 <body>
@@ -25,123 +27,204 @@
             </div>
         </div>
     </main>
-        
-    <section class="container">
+      
+    <section class="flashcard-container">
 
-    <div class="text-overlay">
-        The TSU Gymnasium at the Main Campus has a 2,000-seating capacity and is used for big university-wide events and
-        activities, both academic and non-academic in nature, like graduation, socializations, intramurals, pageants,
-        among others.
-    </div>
-
-    <div class="bottom-bar">
-        <div>TARLAC STATE UNIVERSITY</div>
-        
-            <div class="circle-logo">
-             <img src="Images/logo-colored.png" alt="TSU Logo">
+        <div class="facilities-container">
+            <!-- Gymnasium -->
+            <div class="facility-card" data-target="gymnasium-section" style="background-image: url('fc-images/Gymnasium\ stage.png');">
+                <div class="facility-info">
+                    <h3>Gymnasium</h3>
+                    <p>The TSU Gymnasium at the Main Campus has a 2,000-seating capacity and is used for big university-wide events 
+                    and activities, both academic and non-academic in nature.</p>
+                </div>
+                <div class="bottom-bar">
+                    <div class="university-name">Tarlac State University</div>
+                    <div class="logo">
+                        <img src="Images/logo-colored.png" alt="TSU Logo">
+                    </div>
+                    <div class="facility-name">Gymnasium</div>
+                </div>
             </div>
+    
+            <!-- Cafeteria -->
+            <div class="facility-card" data-target="cafeteria-section" style="background-image: url('fc-images/main-cafeteria.png');">
+                <div class="facility-info">
+                    <h3>Cafeteria</h3>
+                    <p>The TSU Cafeteria offers a variety of meals and snacks for students and staff, providing a convenient and comfortable 
+                    dining experience on campus.</p>
+                </div>
+                <div class="bottom-bar">
+                    <div class="university-name">Tarlac State University</div>
+                    <div class="logo">
+                        <img src="Images/logo-colored.png" alt="TSU Logo">
+                    </div>
+                    <div class="facility-name">Cafeteria</div>
+                </div>
+            </div>
+    
+            <!-- Dental Clinic -->
+            <div class="facility-card" data-target="dentalclinic-section" style="background-image: url('fc-images/Dental\ Clinic.png');">
+                <div class="facility-info">
+                    <h3>Dental Clinic</h3>
+                    <p>The TSU Dental Clinic provides free dental services to students and staff, ensuring health and wellness across 
+                    the campus community.</p>
+                </div>
+                <div class="bottom-bar">
+                    <div class="university-name">Tarlac State University</div>
+                    <div class="logo">
+                        <img src="Images/logo-colored.png" alt="TSU Logo">
+                    </div>
+                    <div class="facility-name">Dental Clinic</div>
+                </div>
+            </div>
+    
+            <!-- Library -->
+            <div class="facility-card" data-target="library-section" style="background-image: url('fc-images/Libray\ bookshelves\ 2.png');">
+                <div class="facility-info">
+                    <h3>Library</h3>
+                    <p>The TSU Library houses a vast collection of resources and study spaces, supporting the academic needs of students 
+                    and faculty.</p>
+                </div>
+                <div class="bottom-bar">
+                    <div class="university-name">Tarlac State University</div>
+                    <div class="logo">
+                        <img src="Images/logo-colored.png" alt="TSU Logo">
+                    </div>
+                    <div class="facility-name">Library</div>
+                </div>
+            </div>
+    
+            <!-- Museo -->
+            <div class="facility-card" data-target="museo-section" style="background-image: url('fc-images/Museo\ indoor.webp');">
+                <div class="facility-info">
+                    <h3>Museo</h3>
+                    <p>The TSU Museo preserves the rich history and culture of Tarlac State University, displaying artifacts and exhibits 
+                    relevant to the university's heritage.</p>
+                </div>
+                <div class="bottom-bar">
+                    <div class="university-name">Tarlac State University</div>
+                    <div class="logo">
+                        <img src="Images/logo-colored.png" alt="TSU Logo">
+                    </div>
+                    <div class="facility-name">Museo</div>
+                </div>
+            </div>
+    
+            <!-- Business Center -->
+            <div class="facility-card" data-target="businesscenter-section" style="background-image: url('fc-images/Business\ center\ indoor.png');">
+                <div class="facility-info">
+                    <h3>Business Center</h3>
+                    <p>The TSU Business Center provides practical business training for students, serving as a hub for student-managed 
+                    enterprises and entrepreneurial activities.</p>
+                </div>
+                <div class="bottom-bar">
+                    <div class="university-name">Tarlac State University</div>
+                    <div class="logo">
+                        <img src="Images/logo-colored.png" alt="TSU Logo">
+                    </div>
+                    <div class="facility-name">Business Center</div>
+                </div>
+            </div>
+        </div>
 
-        <div>GYMNASIUM - MAIN</div>
-    </div>
-
+        <div class="bottom-bar">
+            <div>TARLAC STATE UNIVERSITY</div>
+            
+                <div class="circle-logo">
+                    <img src="Images/logo-colored.png" alt="TSU Logo">
+                </div>
+    
+            <div>FLASHCARDS</div>
+        </div>
+    
+    
+        </section>
+    
+    <section id="gymnasium-section" class="container">
+        <div class="text-overlay">
+            The TSU Gymnasium at the Main Campus has a 2,000-seating capacity and is used for big university-wide events and
+            activities, both academic and non-academic in nature, like graduation, socializations, intramurals, pageants,
+            among others.
+        </div>
+        <div class="bottom-bar">
+            <div>TARLAC STATE UNIVERSITY</div>
+            
+            <div class="circle-logo">
+                    <img src="Images/logo-colored.png" alt="TSU Logo">
+            </div>
+            <div>GYMNASIUM - MAIN</div>
+        </div>
     </section>
 
-        <section class="cafeteria-container">
-
-    <div class="text-overlay">
-        The TSU Cafeteria offers a variety of meals and snacks for students and staff, providing a convenient and comfortable dining experience on campus.
-    </div>
-
-    <div class="bottom-bar">
-        <div>TARLAC STATE UNIVERSITY</div>
-        
+    <section id="cafeteria-section" class="cafeteria-container">
+        <div class="text-overlay">
+            The TSU Cafeteria offers a variety of meals and snacks for students and staff, providing a convenient and comfortable dining experience on campus.
+        </div>
+        <div class="bottom-bar">
+            <div>TARLAC STATE UNIVERSITY</div>
             <div class="circle-logo">
-             <img src="Images/logo-colored.png" alt="TSU Logo">
+                <img src="Images/logo-colored.png" alt="TSU Logo">
             </div>
-
-        <div>CAFETERIA - MAIN</div>
-    </div>
-
+            <div>CAFETERIA - MAIN</div>
+        </div>
     </section>
 
-    <section class="dentalclinic-main-container">
-
+    <section id="dentalclinic-section" class="dentalclinic-main-container">
         <div class="text-overlay">
             The TSU Dental Clinic provides free dental services to students and staff, ensuring health and wellness across the campus community.
         </div>
-    
         <div class="bottom-bar">
             <div>TARLAC STATE UNIVERSITY</div>
-            
-                <div class="circle-logo">
-                 <img src="Images/logo-colored.png" alt="TSU Logo">
-                </div>
-    
+            <div class="circle-logo">
+                <img src="Images/logo-colored.png" alt="TSU Logo">
+            </div>
             <div>CLINIC - MAIN</div>
         </div>
-    
-        </section>
-
     </section>
 
-    <section class="library-main-container">
-
+    <section id="library-section" class="library-main-container">
         <div class="text-overlay">
             The TSU Library houses a vast collection of resources and study spaces, supporting the academic needs of students and faculty.
         </div>
-    
         <div class="bottom-bar">
             <div>TARLAC STATE UNIVERSITY</div>
-            
-                <div class="circle-logo">
-                 <img src="Images/logo-colored.png" alt="TSU Logo">
-                </div>
-    
+            <div class="circle-logo">
+                <img src="Images/logo-colored.png" alt="TSU Logo">
+            </div>
             <div>LIBRARY - MAIN</div>
         </div>
-    
-        </section>
-    
-        <section class="museo-main-container">
+    </section>
 
-            <div class="text-overlay">
-                The TSU Museo preserves the rich history and culture of Tarlac State University, displaying artifacts and exhibits relevant to the university's heritage.
+    <section id="museo-section" class="museo-main-container">
+        <div class="text-overlay">
+            The TSU Museo preserves the rich history and culture of Tarlac State University, displaying artifacts and exhibits relevant to the university's heritage.
+        </div>
+        <div class="bottom-bar">
+            <div>TARLAC STATE UNIVERSITY</div>
+            <div class="circle-logo">
+                <img src="Images/logo-colored.png" alt="TSU Logo">
             </div>
-        
-            <div class="bottom-bar">
-                <div>TARLAC STATE UNIVERSITY</div>
-                
-                    <div class="circle-logo">
-                     <img src="Images/logo-colored.png" alt="TSU Logo">
-                    </div>
-        
-                <div>MUSEO ARCHIVO - MAIN</div>
+            <div>MUSEO ARCHIVO - MAIN</div>
+        </div>
+    </section>
+
+    <section id="businesscenter-section" class="businesscenter-main-container">
+        <div class="text-overlay">
+            The TSU Business Center provides practical business training for students, serving as a hub for student-managed enterprises and entrepreneurial activities.
+        </div>
+        <div class="bottom-bar">
+            <div>TARLAC STATE UNIVERSITY</div>
+            <div class="circle-logo">
+                <img src="Images/logo-colored.png" alt="TSU Logo">
             </div>
-        
-            </section>
-
-            <section class="businesscenter-main-container">
-
-                <div class="text-overlay">
-                    The TSU Business Center provides practical business training for students, serving as a hub for student-managed enterprises and entrepreneurial activities.
-                </div>
-            
-                <div class="bottom-bar">
-                    <div>TARLAC STATE UNIVERSITY</div>
-                    
-                        <div class="circle-logo">
-                         <img src="Images/logo-colored.png" alt="TSU Logo">
-                        </div>
-            
-                    <div>BUSINESS CENTER - MAIN</div>
-                </div>
-            
-                </section>
-        
+            <div>BUSINESS CENTER - MAIN</div>
+        </div>
+    </section>
     
+    <script src="script.js"></script>
 
     <!--Add sections here!-->
-
 
     <main class="sanisidroImage">        
         <div class="info-container">
@@ -309,8 +392,10 @@
         
     </section>
 
-            
 
+    
     <!--Add sections here!-->
 
+
+</body>
 </html>
