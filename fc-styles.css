@@ -5,13 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-}
-
 .flashcard-container {
     position: relative;
     width: 100%;
@@ -77,15 +70,6 @@ body {
     font-size: 16px;
 }
 
-/* Bottom bar with logo and text */
-.bottom-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #8B0000;
-    gap: 10px;
-}
 
 .bottom-bar .logo {
     width: 50px;
