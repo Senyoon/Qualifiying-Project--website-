@@ -89,3 +89,58 @@ section {
     color:white;
     font-family: "Roboto Mono";
 }
+.container-outdoor-sports-field {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/lucinda-football-field.jpg') no-repeat center / cover;
+    color:white;
+    font-family: "Roboto Mono";
+}
+.container-lucinda-court {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/lucinda-coveredcourt.jpg') no-repeat center / cover;
+    color:white;
+    font-family: "Roboto Mono";
+}
+.container-lucinda-park {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/lucindapark.jpg') no-repeat center / cover;
+    color:white;
+    font-family: "Roboto Mono";
+}
+.container-lucinda-studentcenter {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/student-center.jpg') no-repeat center / cover;
+    color:white;
+    font-family: "Roboto Mono";
+}
+.container-lucinda-entrance {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/lucinda-gate.jpg') no-repeat center / cover;
+    color:white;
+    font-family: "Roboto Mono";
+}
+.cos-logo {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.cte-logo {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
