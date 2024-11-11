@@ -14,6 +14,7 @@
 }
 .flashcardlucinda-container {
     position: relative;
+    height: auto;
     margin: 0 auto;
     background: url('fc-images/lucinda\ blurred.png') no-repeat center / cover; 
     color: white;
@@ -140,7 +141,7 @@
         height: auto;
     }
 
-    .flashcardlucinda-container {
+    .flashcardsanisidro-container {
         height: auto;
     }
 }
