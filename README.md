@@ -1,2 +1,10 @@
-https://www.canva.com/design/DAGVTzeVhY4/Zg3c1A1PQtlMMRhFm82Edw/edit?utm_content=DAGVTzeVhY4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-Website Design
+<h1> Group 3 Members </h1>
+
+<p>
+1. Kipte, Philip Abraham O.
+2. Espedido, Janssen Carl U.
+3. Pasion, Dessiree Camille Hipolito
+4. Magdangal, Luis Antonio Constantino 
+5. Dayrit, John Ryu V.
+6. Pascual, Adriel John
+</p>

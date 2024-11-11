@@ -9,7 +9,7 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
-    height: 100vh;
+    height: auto;
     background: url('fc-images/eagle\ eye\ tsu\ main\ flashcard.png') no-repeat center / cover; 
     color: white;
     font-family: "Roboto Mono";

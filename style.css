@@ -232,8 +232,28 @@ section {
     background: url('Images/lucinda-gate.jpg') no-repeat center / cover;
     color:white;
     font-family: "Roboto Mono";
-
 }
+
+.container-lucinda-hotel {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/lucindapoolhotel.jpg') no-repeat center / cover;
+    color:white;
+    font-family: "Roboto Mono";
+}
+
+.container-lucinda-lagoon {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background: url('Images/lagoon.png') no-repeat center / cover;
+    color:white;
+    font-family: "Roboto Mono";
+}
+
 .cos-logo {
     position: absolute;
     top: 100px;
