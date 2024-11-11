@@ -1,10 +1,10 @@
 <h1> Group 3 Members </h1>
 
-<p>
-1. Kipte, Philip Abraham O.
-2. Espedido, Janssen Carl U.
-3. Pasion, Dessiree Camille Hipolito
-4. Magdangal, Luis Antonio Constantino 
-5. Dayrit, John Ryu V.
-6. Pascual, Adriel John
-</p>
+<ol>
+<li> Kipte, Philip Abraham O. </li>
+<li> Espedido, Janssen Carl U. </li>
+<li> Pasion, Dessiree Camille Hipolito </li>
+<li> Magdangal, Luis Antonio Constantino  </li>
+<li> Dayrit, John Ryu V. </li>
+<li> Pascual, Adriel John </li>
+</ol>
