@@ -7,18 +7,14 @@
 
 .flashcard-container {
     position: relative;
-    width: 100%;
     margin: 0 auto;
-    height: auto;
     background: url('fc-images/eagle\ eye\ tsu\ main\ flashcard.png') no-repeat center / cover; 
     color: white;
     font-family: "Roboto Mono";
 }
 .flashcardlucinda-container {
     position: relative;
-    width: 100%;
     margin: 0 auto;
-    height: auto;
     background: url('fc-images/lucinda\ blurred.png') no-repeat center / cover; 
     color: white;
     font-family: "Roboto Mono";
@@ -26,9 +22,7 @@
 
 .flashcardsanisidro-container {
     position: relative;
-    width: 100%;
     margin: 0 auto;
-    height: auto;
     background: url('fc-images/blurred\ ccs\ bldg.png') no-repeat center / cover; 
     color: white;
     font-family: "Roboto Mono";
@@ -138,4 +132,16 @@
         align-items: center;
         
     }
+
 }
+
+@media (max-width: 1024px) {
+    .flashcard-container {
+        height: auto;
+    }
+
+    .flashcardlucinda-container {
+        height: auto;
+    }
+}
+
